@@ -112,11 +112,35 @@ body{
   line-height: 25px;
 }
 
+@media only screen and (max-width: 780px){
+  .container{
+    width: 300px;
+  }
 
+  .card{
+    height: 250px;
+    padding-bottom: 20px;
+  }
 
-.for-colors{
-  color: hsl(179, 62%, 43%);
-  color: hsl(71, 73%, 54%);
-  color: hsl(204, 43%, 93%);
-  color: hsl(218, 22%, 67%);
+  .first-card h2{
+    font-size: 22px;
+  }
+
+  .first-card-first-text{
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .first-card-second-text{
+    line-height: 15px;
+    font-size: 13.5px;
+  }
+
+  .second-and-third{
+    flex-direction: column;
+  }
+
+  .second, .third{
+    width: 100%;
+  }
 }
